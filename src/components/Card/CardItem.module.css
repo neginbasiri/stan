@@ -1,0 +1,23 @@
+.default {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .default {
+    margin-right: 15px;
+    flex: 1 0 calc(25% - 15px);
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .default {
+        margin-right: 15px;
+        flex: 1 0 calc(14% - 15px);
+      }
+}

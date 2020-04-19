@@ -1,0 +1,25 @@
+.default {
+  font-size: 16px;
+}
+
+.medium{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.large{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+
+
+.imageCoverText {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+

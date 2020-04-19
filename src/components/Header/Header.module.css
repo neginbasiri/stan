@@ -1,0 +1,32 @@
+.default{
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    color: white;
+    padding: 15px 30px;
+    align-items: baseline;
+}
+
+.headerColumn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.headerColumn > a{
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 600px){
+    .headerColumn{
+
+        flex-direction: row;
+    }
+
+    .headerColumn > a{
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}

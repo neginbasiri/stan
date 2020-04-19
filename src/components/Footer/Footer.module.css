@@ -1,0 +1,56 @@
+
+
+
+.default {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.linkRow {
+  display: flex;
+  padding-bottom: 15px;
+  flex-flow: row wrap;
+}
+
+.linkRow  > a:after{
+  content: "|";
+  padding: 0 10px;
+}
+
+.imageRow {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialIcons {
+  display: flex;
+  margin-top: 0;
+}
+
+.appIcons {
+  display: flex;
+}
+
+.appIcon{
+    width: 30%;
+    display: block;
+    margin-left: 10px;
+}
+
+
+.socialIcon{
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin-right: 15px;
+}
+/* 
+@media only screen and (max-width: 600px) {
+  .appIcons {
+    margin-top: 10px;
+  }
+} */

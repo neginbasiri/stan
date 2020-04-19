@@ -1,0 +1,56 @@
+
+
+.wrapper {
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tile {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.tile:hover{
+    text-decoration: underline;
+}
+
+.imageWrapper {
+  position: relative;
+  padding-right: 15px;
+}
+
+.image {
+  background-color: black;
+  height: 200px;
+}
+
+.imageText {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .tile {
+    flex-basis: 50%;
+    margin-bottom: 0;
+    padding-right: 15px;
+    margin-right: -15px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .tile {
+    flex-basis: 25%;
+  }
+}
+

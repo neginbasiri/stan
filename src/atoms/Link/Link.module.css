@@ -1,0 +1,8 @@
+.default{
+    text-decoration: none;
+    color: white;
+}
+
+.default:hover{
+    text-decoration: underline;
+}
